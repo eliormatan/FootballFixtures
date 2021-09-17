@@ -10,12 +10,10 @@
 
 Clone this repository : https://github.com/eliormatan/FootballFixtures.git
 
-Then ...
-
+Then Man/Linux/Windows:
 
 ```
-$ javac ...
-$ java ...
+$ java -jar FootballFixtures.jar 
 ```
 
   
