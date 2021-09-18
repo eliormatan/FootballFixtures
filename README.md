@@ -10,7 +10,7 @@
 
 Clone this repository : https://github.com/eliormatan/FootballFixtures.git
 
-Then Man/Linux/Windows:
+Then on Mac/Linux/Windows:
 
 ```
 $ java -jar FootballFixtures.jar result_played.csv result_upcoming.csv
