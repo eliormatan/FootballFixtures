@@ -12,7 +12,8 @@ public class Printer {
     public static void printGames(String input, String type, boolean onlyName) {
         String[] inputArr = input.split(" ");
         //input includes status. split name and status
-        if (!onlyName && inputArr.length > 1) {
+//        if (!onlyName && inputArr.length > 1) {
+        if(!onlyName){
             String name = String.join(" ", Arrays.copyOf(inputArr, inputArr.length - 1));
             String status = inputArr[inputArr.length - 1];
             //validate input
@@ -88,7 +89,7 @@ public class Printer {
         }
     }
 
-    private static void printError(String input){
-        System.out.println(input+" is invalid input for this option. Please try again!");
+    public static void printError(String input){
+        System.out.println(input+INVALID_INFO);
     }
 }

@@ -16,6 +16,7 @@ public class Constants {
     public static final String WELCOME = "Welcome to Football Fixtures!";
     public static final String BYE = "See you next time ;)";
     public static final String INVALID_OPTION = "Please choose a valid option! (1-5)";
+    public static final String INVALID_INFO = " is invalid input for this option. Please try again!";
 
     public static void printOptions() {
         System.out.print("\nPlease choose an option:\n" +
@@ -25,6 +26,7 @@ public class Constants {
                 "4.Get list of matches by tournament filtered by status\n" +
                 "5.exit\n" + "-> ");
     }
+
 
 
 }
