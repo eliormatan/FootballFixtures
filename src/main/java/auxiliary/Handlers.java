@@ -9,7 +9,7 @@ import static common.Shared.option;
 public class Handlers {
 
     public static void handleInput(String input) {
-        //
+        //the user enters valid input
         if (option == 0 || !Character.isDigit(input.charAt(0))) {
             switch (input) {
                 case "1": {

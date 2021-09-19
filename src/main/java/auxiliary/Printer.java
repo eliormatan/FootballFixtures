@@ -12,7 +12,6 @@ public class Printer {
     public static void printGames(String input, String type, boolean onlyName) {
         String[] inputArr = input.split(" ");
         //input includes status. split name and status
-//        if (!onlyName && inputArr.length > 1) {
         if(!onlyName){
             String name = String.join(" ", Arrays.copyOf(inputArr, inputArr.length - 1));
             String status = inputArr[inputArr.length - 1];
